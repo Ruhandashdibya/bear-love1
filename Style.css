@@ -1,0 +1,56 @@
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fce4ec;
+}
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+.gif-container img, .gif-container video {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.buttons-container button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0 10px;
+    font-weight: bold;
+}
+#yes-btn {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+}
+#yes-btn:hover {
+    background-color: #45a049;
+}
+#no-btn {
+    background-color: #f44336; /* Rojo */
+    color: white;
+    position: relative;
+}
+#no-btn:hover {
+    background-color: #da190b;
+}
+.result-container {
+    display: none;
+}
+.result-container h2 {
+    font-size: 24px;
+    color: #333;
+}
